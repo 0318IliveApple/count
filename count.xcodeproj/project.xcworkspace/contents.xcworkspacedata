@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../../../&#x540d;&#x79f0;&#x672a;&#x8a2d;&#x5b9a;&#x30d5;&#x30a9;&#x30eb;&#x30bf;&#x3099;/la-1506656436-7s391t9vld-snap-image.jpg">
+   </FileRef>
+   <FileRef
       location = "self:count.xcodeproj">
    </FileRef>
 </Workspace>

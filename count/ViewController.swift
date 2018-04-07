@@ -9,6 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    var number:Int = 0
+    @IBOutlet var label: UILabel!
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +26,42 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func plus(){
+        number += 1
+        label.text = String(number)
+        if number>10 {
+            label.backgroundColor = UIColor.red
+        }else if number<0 {
+            label.backgroundColor = UIColor.blue
+        }else{
+            label.backgroundColor = UIColor.white
+        }
 
+    }
+    
+    @IBAction func minus(){
+        number -= 1
+        label.text = String(number)
+        
+        if number<0 {
+            label.backgroundColor = UIColor.blue
+        }else if number>10 {
+            label.backgroundColor = UIColor.red
+        }else{
+            label.backgroundColor = UIColor.white
+        }
+    }
+    
+    @IBAction func clear(){
+        number = 0
+        label.text = String(number)
+        label.backgroundColor = UIColor.white
+    }
+    
+    
+    @IBAction func stepperp(){
+        number += 1
+        label.text = String(number)
+    }
 }
 

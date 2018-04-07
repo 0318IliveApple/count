@@ -14,6 +14,8 @@
 		606563A5204A886F00B17165 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 606563A3204A886F00B17165 /* LaunchScreen.storyboard */; };
 		606563B0204A886F00B17165 /* countTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606563AF204A886F00B17165 /* countTests.swift */; };
 		606563BB204A886F00B17165 /* countUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606563BA204A886F00B17165 /* countUITests.swift */; };
+		606563C9204A8B4700B17165 /* la-1506656436-7s391t9vld-snap-image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 606563C8204A8B4600B17165 /* la-1506656436-7s391t9vld-snap-image.jpg */; };
+		60E2DE9D2067584E00FAC64D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 60E2DE9C2067584E00FAC64D /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		606563B6204A886F00B17165 /* countUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = countUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		606563BA204A886F00B17165 /* countUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countUITests.swift; sourceTree = "<group>"; };
 		606563BC204A886F00B17165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		606563C8204A8B4600B17165 /* la-1506656436-7s391t9vld-snap-image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "la-1506656436-7s391t9vld-snap-image.jpg"; path = "../../名称未設定フォルダ/la-1506656436-7s391t9vld-snap-image.jpg"; sourceTree = "<group>"; };
+		60E2DE9C2067584E00FAC64D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		6065638E204A886F00B17165 = {
 			isa = PBXGroup;
 			children = (
+				606563C8204A8B4600B17165 /* la-1506656436-7s391t9vld-snap-image.jpg */,
 				60656399204A886F00B17165 /* count */,
 				606563AE204A886F00B17165 /* countTests */,
 				606563B9204A886F00B17165 /* countUITests */,
@@ -97,6 +102,7 @@
 		60656399204A886F00B17165 /* count */ = {
 			isa = PBXGroup;
 			children = (
+				60E2DE9C2067584E00FAC64D /* icon.png */,
 				6065639A204A886F00B17165 /* AppDelegate.swift */,
 				6065639C204A886F00B17165 /* ViewController.swift */,
 				6065639E204A886F00B17165 /* Main.storyboard */,
@@ -232,6 +238,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				606563C9204A8B4700B17165 /* la-1506656436-7s391t9vld-snap-image.jpg in Resources */,
+				60E2DE9D2067584E00FAC64D /* icon.png in Resources */,
 				606563A5204A886F00B17165 /* LaunchScreen.storyboard in Resources */,
 				606563A2204A886F00B17165 /* Assets.xcassets in Resources */,
 				606563A0204A886F00B17165 /* Main.storyboard in Resources */,
@@ -427,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G4R772ZVB;
 				INFOPLIST_FILE = count/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = prepre.count;
@@ -441,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G4R772ZVB;
 				INFOPLIST_FILE = count/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = prepre.count;
